@@ -6,6 +6,7 @@ import (
 	"github.com/russross/blackfriday"
 	"log"
 	"net/http"
+	"os"
 )
 
 func Index(w http.ResponseWriter, r *http.Request, _ httprouter.Params) {
@@ -55,5 +56,5 @@ func main() {
 	router.GET("/markdown", GetMarkdown)
 	router.POST("/markdown", PostMarkdown)
 
-	log.Fatal(http.ListenAndServe(":8080", router))
+	log.Fatal(http.ListenAndServe(":"+os.Getenv("PORT"), router))
 }

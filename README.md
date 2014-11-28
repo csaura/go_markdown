@@ -6,7 +6,7 @@ Web service to send text in markdown and receive the parsed text
 To run the service:
 
 ```
-./web
+PORT=8080 ./web
 ```
 
 

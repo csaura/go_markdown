@@ -1,0 +1,19 @@
+{
+	"ImportPath": "github.com/csaura/go_markdown",
+	"GoVersion": "go1.3.1",
+	"Deps": [
+		{
+			"ImportPath": "github.com/julienschmidt/httprouter",
+			"Rev": "46807412fe50aaceb73bb57061c2230fd26a1640"
+		},
+		{
+			"ImportPath": "github.com/russross/blackfriday",
+			"Comment": "v1.2-27-gf10a439",
+			"Rev": "f10a439fa0de041047d06b686fa5e056bee024b7"
+		},
+		{
+			"ImportPath": "github.com/shurcooL/go/github_flavored_markdown/sanitized_anchor_name",
+			"Rev": "37fb1155a44a5e39fc9775216c9cc6f6847dfa23"
+		}
+	]
+}

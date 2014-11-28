@@ -1,1 +1,1 @@
-web: web
+web: go_markdown
